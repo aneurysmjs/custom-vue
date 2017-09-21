@@ -12,7 +12,7 @@
         ]
       },
       {
-        "source": "/assets/img/*.@(jpg|jpeg|gif|png)",
+        "source": "/assets/img/**/*.@(jpg|jpeg|gif|png)",
         "headers": [
           {
             "key": "Cache-Control",
@@ -31,7 +31,6 @@
       }
     ],
     "ignore": [
-      "firebase.json",
       "**/.*",
       "travis.yml",
       "yarn.lock",
