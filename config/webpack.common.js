@@ -11,6 +11,7 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       'styles$': setupPath('../src/assets/scss/styles.scss'),
       'pages': setupPath('../src/pages'),
+      'components': setupPath('../src/components'),
       'shared': setupPath('../src/shared')
     },
     extensions: [`.js`, `.vue`]
