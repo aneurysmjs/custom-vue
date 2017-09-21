@@ -16,7 +16,7 @@ gulp.task('component', () => {
   let name = yargs.argv.name,
      parentPath = yargs.argv.parent || '',
      folder = yargs.argv.folder || 'components',
-     destPath = join(resolveFolderPath(folder), parentPath, camelToDashCase(name));
+     destPath = join(resolveFolderPath(folder), parentPath, capitalCase(name));
      
   return gulp.src(componentPath)
      .pipe(template({
@@ -25,7 +25,7 @@ gulp.task('component', () => {
        dashCaseName: camelToDashCase(name)
      }))
      .pipe(rename((path) => {
-       path.basename = path.basename.replace('temp', camelToDashCase(name));
+       path.basename = path.basename.replace('temp', capitalCase(name));
      }))
      .pipe(gulp.dest(destPath));
 
