@@ -1,0 +1,13 @@
+// import bootstrap.scss file
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import "variables.scss";
+@import "utilities";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "cta.scss";
+@import "bootstrap-overrides.scss";
