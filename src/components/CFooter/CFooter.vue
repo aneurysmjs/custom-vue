@@ -23,12 +23,18 @@
        </div>
      </div>
    </section>
+   <c-subfooter></c-subfooter>
  </footer>
 </template>
 
 <script>
-  export default {
 
+  import CSubfooter from 'components/CSubFooter';
+
+  export default {
+    components: {
+      CSubfooter
+    }
   }
 </script>
 
