@@ -26,8 +26,3 @@
     props: ['images']
   }
 </script>
-<style scoped lang="scss">
-  .cportfolio {
-
-  }
-</style>
