@@ -1,6 +1,6 @@
 {
   "name": "centerbore",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0",
   "description": "custom parts",
   "main": "src/main.js",
   "scripts": {
