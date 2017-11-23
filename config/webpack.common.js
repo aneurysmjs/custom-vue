@@ -4,7 +4,7 @@ const { setupPath } = require(`./helpers`),
 
 module.exports = {
 
-  entry: './src/main.js',
+  entry: ['babel-polyfill', './src/main.js'],
 
   resolve: {
     alias: {
