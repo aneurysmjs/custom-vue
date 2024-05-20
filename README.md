@@ -1,6 +1,2 @@
-# centerbore
+# Custom Vue
 custom parts
-
-### This project uses startbootstrap
-
-https://github.com/BlackrockDigital/startbootstrap-creative
